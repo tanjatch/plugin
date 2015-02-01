@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset=utf-8>
+	<title> Bookshop </title>
+	<link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' />
+	<link rel="stylesheet" href="css/slider.css"> 
+	<link rel="stylesheet" href="css/homestyle.css"> 
+	
+</head>
+<body>
+<h1> Välkommen till en boksida.</h1>
+<p> Här används jQuery plugin utan prototypbaserad programmering</p><br/>
+<p>Du kan klicka på knappar för att titta på  urvalet.</p>
+<p> Klickar du på själva bilden, markeras informationen om boken i tabellen.</p>
+<div class="slider">
+	<ul>
+		<li><a href="#img1"><img src="img/javascript-in-easy-steps.jpg" alt="image"></a></li>
+		<li><a href="#img2"><img src="img/javascript-the-definitive-guide.jpg" alt="image"></a></li>
+		<li><a href="#img3"><img src="img/javascript-the-good-parts.jpg" alt="image"></a></li>
+		<li><a href="#img4"><img src="img/jquery-novice-to-ninja.jpg" alt="image"></a></li>
+	</ul>
+</div>
+<div id="slider-nav">
+
+	<button data-dir="prev">&lt;</button>
+	<button data-dir="next">&gt;</button>
+</div>
+
+<table class="borderless services">
+	<thead>
+        <tr>
+          <th>Böcker vi säljer</th>
+          <th>Pris</th>
+        </tr>
+      </thead>
+      <tbody>
+		<tr id="img1">
+          <td>JavaScript in easy steps</td>
+          <td>190 kr</td>
+        </tr>
+		<tr id="img2">
+          <td>Javascript the definitive guide</td>
+          <td>300 kr</td>
+		</tr>
+		<tr id="img3">
+          <td>JavaScript The Good Parts</td>
+          <td>200 kr</td>
+		</tr>
+		<tr id="img4">
+          <td>jQuery Novice To Ninja</td>
+          <td>340 kr</td>
+		</tr>
+	</tbody>
+ </table>
+
+<script src="jquery-1.11.2.js"></script>
+
+<!-- man kan inkludera slider1.js och slider2.js istället för slider.js, fungerar lika bra, anorlunda kodning -->
+<script src="js/slider.js"></script>
+
+
+<footer>
+<small>&copy; Tanja Tchoumak</small> 
+</footer>
+</body>
+
+</html>

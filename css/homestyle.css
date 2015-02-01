@@ -1,0 +1,82 @@
+html{
+background-color:#DDDDDD;
+}
+body {
+    margin: auto;
+    width: 860px;
+    font-family: "Helvetica Neue", "Liberation Sans", Calibri, Arial, sans-serif;
+    font-size: 100%;
+	background-color:#E8EFEF;
+	border-radius:5px;
+	box-shadow: 0 0 9px #7D8E1C;
+}
+	
+	
+	*{margin:0; padding:0;} 
+
+h1{
+font-family: 'Merienda One', cursive;
+ margin-left: 5% ;
+ color: #6A4D9B;
+}
+p{
+margin-left: 5% ;
+font-size: 150%;
+
+}
+/*
+========================================================================
+Tables
+========================================================================
+*/
+.borderless {
+    
+    border-spacing: 0;
+}
+.services {
+    border:1px solid #d3d3d3;
+    background: #fff;
+    width: 96%;
+    margin: 5% auto 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    text-shadow: #fff 1px 1px 1px;
+}
+thead {
+    font-size: 150%;
+}
+th, td {
+    padding: 18px 28px 18px;
+    text-align: left;
+}
+th {
+    padding-top: 22px;
+    background:#6A4D9B;
+}
+td {
+    border-top: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+}
+tr:target {
+    background-color:#8B8B93;
+}
+
+tr {
+    -webkit-transition: background-color 0.3s;
+       -moz-transition: background-color 0.3s;
+        -ms-transition: background-color 0.3s;
+         -o-transition: background-color 0.3s;
+}
+/*
+==================================================================================
+Page footer rules
+==================================================================================
+*/
+
+footer {
+    
+    clear: both;
+    margin-top: 3em;
+    text-align: center;
+    color: #999;
+}
